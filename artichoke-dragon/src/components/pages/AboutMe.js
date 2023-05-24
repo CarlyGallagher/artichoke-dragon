@@ -4,6 +4,7 @@ export default function AboutMe() {
   return (
     <div>
   <h3>About Me</h3>
+  <img src={profilePhoto} alt="profile photo" />
   <p>
     Welcome to my page! I am a full stack web developer aiming to write the best applications possible!
     I have a nack for organization so data systems are my bread and butter!!! 🍞 🧈
