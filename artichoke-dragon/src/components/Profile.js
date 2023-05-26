@@ -4,6 +4,7 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import NavBar from './NavBar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Profile() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -28,6 +29,7 @@ export default function Profile() {
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <footer>
+      <i class="bi bi-github" href="https://github.com/CarlyGallagher"></i>
         <p>© 2023 Artichoke Dragon 🐉</p>
       </footer>
     </div>
