@@ -22,7 +22,7 @@ export default function Portfolio() {
             </div>
             <div>
                 <a href="https://ramen-talks.herokuapp.com/login">
-                    <h3>Honey comb</h3>
+                    <h3>Ramen Talks</h3>
                     <a href="https://github.com/CarlyGallagher/ramen-talks.git">
                         <h4>link to github repository</h4>
                     </a>

@@ -12,6 +12,7 @@ export default function Resume() {
                 <li>SQL/NOSQL databases</li>
                 <li>Crud</li>
                 <li>React</li>
+                <li>Node.js</li>
             </ul>
             <button className="button">
             <a className="button" href={resumePDF} download="CarlyGallagherResume.pdf">
