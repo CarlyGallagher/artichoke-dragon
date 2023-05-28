@@ -1,3 +1,8 @@
+* {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
 body {
     background-image: linear-gradient(to bottom, #3a14e0, #dfd1d1);
     background-repeat: no-repeat;
@@ -28,6 +33,30 @@ body {
     float: right;
     margin-top: 10%;
     margin-right: 10%;
+
+  }
+
+  /* resume */
+
+#top {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+  }
+
+  #skills {
+    color: #ffffff;
+    font-size: 3.5rem;
+    padding-left: 20%
+  }
+
+
+
+  #resume {
+    color: #ffffff;
+    font-size: 3.5rem;
+    padding-right: 20%
   }
 
   /* footer */

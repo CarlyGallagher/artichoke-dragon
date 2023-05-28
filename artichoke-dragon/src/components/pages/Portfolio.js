@@ -4,7 +4,7 @@ export default function Portfolio() {
     return (
         <div>
             <h3>My projects</h3>
-            <div>
+            <div className="port" id="stone">
                 <a href="https://carlygallagher.github.io/stone-martini/">
                     <h3>Sip Savvy</h3>
                 </a>
@@ -12,7 +12,7 @@ export default function Portfolio() {
                     <h4>link to github repository</h4>
                 </a>
             </div>
-            <div>
+            <div className="port" id="honey">
                 <a href="https://the-honey-comb.herokuapp.com/">
                     <h3>Honey comb</h3>
                     <a href="https://github.com/CarlyGallagher/the-honey-comb.git">
@@ -20,7 +20,7 @@ export default function Portfolio() {
                     </a>
                 </a>
             </div>
-            <div>
+            <div className="port" id="ramen">
                 <a href="https://ramen-talks.herokuapp.com/login">
                     <h3>Ramen Talks</h3>
                     <a href="https://github.com/CarlyGallagher/ramen-talks.git">

@@ -4,7 +4,10 @@ import resumePDF from "../../assets/resume/CarlyGallagherResume.pdf";
 export default function Resume() {
     return (
         <div>
-            <h3>Skills</h3>
+            <div id="top">
+            <h2 id="skills">Skills</h2>
+            <h3 id="resume">Resume</h3>
+            </div>
             <ul>
                 <li>HTML 5</li>
                 <li>CSS </li>
