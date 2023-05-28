@@ -2,11 +2,18 @@
 font-family: Arial, Helvetica, sans-serif;
 }
 
+/* gets rid of white space */
+html, body, #root {
+    height: 100%;
+  }
+  
+
 
 body {
     background-image: linear-gradient(to bottom, #3a14e0, #dfd1d1);
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0%;
 }
 
 /* about me page */
@@ -61,7 +68,7 @@ justify-content: space-between;
 
   /* footer */
 
-  footer{
+  footer {
     text-align: center;
   }
 
