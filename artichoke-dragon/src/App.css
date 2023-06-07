@@ -10,6 +10,15 @@ nav:hover {
     color: #11da43cd;
 }
 
+.nav-link {
+    color: #0a7525;
+}
+
+.nav {
+    --bs-nav-link-color: #000;
+    --bs-nav-link-hover-color: #000000;
+}
+
 /* gets rid of white space */
 html,
 body,
