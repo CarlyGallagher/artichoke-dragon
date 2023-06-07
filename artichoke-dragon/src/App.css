@@ -1,3 +1,7 @@
+:root {
+--green : #0a7525;
+}
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,7 +15,7 @@ nav:hover {
 }
 
 .nav-link {
-    color: #0a7525;
+    color: var(--green);
 }
 
 .nav {
@@ -97,6 +101,17 @@ a {
     text-decoration: none;
     font-size: 1.5rem;
 }
+
+/* PORTFOLIO AREA */
+ .title {
+    text-align: center;
+    padding: 1%;
+    color: var(--green);
+    text-shadow: 3px 3px 0 white;
+    text-decoration-line: underline;
+    font-size: 300%;
+ }
+
 
 
 /* footer */

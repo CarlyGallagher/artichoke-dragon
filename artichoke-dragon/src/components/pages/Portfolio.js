@@ -3,43 +3,37 @@ import React from "react";
 export default function Portfolio() {
     return (
         <div>
-            <h3>My projects</h3>
-            <div className="port" id="stone">
-                <a href="https://carlygallagher.github.io/stone-martini/">
-                    <img src={require("../../assets/sip.jpeg")} alt="sip-savvy" />
-                    <h3>Sip Savvy</h3>
-                </a>
-                <a href="https://github.com/CarlyGallagher/stone-martini.git">
-                    <h4>link to github repository</h4>
-                </a>
+            <h3 className="title">My projects</h3>
+            <div className="port-container">
+                <div className="card" id="stone">
+                    <a href="https://carlygallagher.github.io/stone-martini/"><img src={require("../../assets/sip.jpeg")} alt="sip-savvy" /></a>
+                    <div className="container">
+                        <a href="https://carlygallagher.github.io/stone-martini/">Sip savvy</a>
+                        <a href="https://github.com/CarlyGallagher/stone-martini.git">link to repository</a>
+                    </div>
+                </div>
+                <div className="card" id="honey">
+                    <a href="https://the-honey-comb.herokuapp.com/"><img src={require("../../assets/honey.jpeg")} alt="honey-comb" /></a>
+                    <div className="container">
+                        <a href="https://the-honey-comb.herokuapp.com/">Honey Comb</a>
+                        <a href="https://github.com/CarlyGallagher/the-honey-comb.git">link to repository</a>
+                    </div>
+                </div>
+                <div className="card" id="ramen">
+                    <a href="https://ramen-talks.herokuapp.com/login"><img src={require("../../assets/techblog.jpeg")} alt="techblog" /></a>
+                    <div className="container">
+                        <a href="https://ramen-talks.herokuapp.com/login">Tech Blog</a>
+                        <a href="https://github.com/CarlyGallagher/ramen-talks.git">link to repository</a>
+                    </div>
+                </div>
+                <div className="card" id="front">
+                    <a href="https://front-yard-free-loaders.herokuapp.com/"><img src={require("../../assets/frontyard.png")} alt="frontyard" /></a>
+                    <div className="container">
+                        <a href="https://front-yard-free-loaders.herokuapp.com/">Front Yard Free-Loaders</a>
+                        <a href="https://github.com/CarlyGallagher/front-yard.git">link to repository</a>
+                    </div>
+                </div>
             </div>
-            <div className="port" id="honey">
-                <a href="https://the-honey-comb.herokuapp.com/">
-                    <img src={require("../../assets/honey.jpeg")} alt="honey-comb" />
-                    <h3>Honey comb</h3>
-                    <a href="https://github.com/CarlyGallagher/the-honey-comb.git">
-                        <h4>link to github repository</h4>
-                    </a>
-                </a>
-            </div>
-            <div className="port" id="ramen">
-                <a href="https://ramen-talks.herokuapp.com/login">
-                    <img src={require("../../assets/techblog.jpeg")} alt="techblog" />
-                    <h3>Ramen Talks</h3>
-                    <a href="https://github.com/CarlyGallagher/ramen-talks.git">
-                        <h4>link to github repository</h4>
-                    </a>
-                </a>
-            </div>
-            <div className="port" id="front">
-                <a href="https://front-yard-free-loaders.herokuapp.com/">
-                    <img src={require("../../assets/frontyard.png")} alt="frontyard" />
-                    <h3>Front Yard Free Loaders</h3>
-                    <a href="https://github.com/CarlyGallagher/front-yard.git">
-                        <h4>link to github repository</h4>
-                    </a>
-                </a>
-            </div>
-        </div>
+        </div >
     );
 }
