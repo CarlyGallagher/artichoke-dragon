@@ -32,7 +32,7 @@ body,
 
 
 
-body {
+ body {
     background-image: linear-gradient(to bottom, #f4f4f7, #0e5507);
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,13 +41,8 @@ body {
 
 /* about me page */
 
-.profilePhoto {
-    background-image: url(./assets/profilePhoto.jpg);
-    max-width: 15%;
-    min-width: 10%;
-}
 
-img {
+.profilephoto, img {
     max-width: 25%;
     height: auto;
     border-radius: 50%;
@@ -91,6 +86,7 @@ img {
 
 #button {
     padding-top: 15%;
+    padding-bottom: 10%;
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
@@ -112,14 +108,44 @@ a {
     font-size: 300%;
  }
 
+ img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+  }
+
+  div.container1 {
+    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  div.polaroid {
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2%
+  }
+
+  div.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 
 
 /* footer */
 
+.socials {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
 footer {
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     color: #f4f4f7;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    margin-top: auto;
 }
