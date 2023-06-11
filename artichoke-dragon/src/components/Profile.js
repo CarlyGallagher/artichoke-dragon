@@ -3,7 +3,7 @@ import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
-import NavBar from './NavBar';
+import NavBar from './Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Profile() {
