@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/artichoke-dragon/static/css/main.46c2fed5.css",
+    "main.js": "/artichoke-dragon/static/js/main.83767d24.js",
+    "static/media/profilePhoto.jpg": "/artichoke-dragon/static/media/profilePhoto.4e0c4405b3f334854346.jpg",
+    "static/media/frontyard.png": "/artichoke-dragon/static/media/frontyard.45a4ed5e128bd44b0499.png",
+    "static/media/CarlyGallagherResume.pdf": "/artichoke-dragon/static/media/CarlyGallagherResume.fcfd32130ecc508d4985.pdf",
+    "static/media/techblog.jpeg": "/artichoke-dragon/static/media/techblog.23a82672b93167fe209a.jpeg",
+    "static/media/sip.jpeg": "/artichoke-dragon/static/media/sip.b8c72ae4f5df134ef99d.jpeg",
+    "static/media/honey.jpeg": "/artichoke-dragon/static/media/honey.9c8aa7dfd672e4c6a429.jpeg",
+    "index.html": "/artichoke-dragon/index.html",
+    "main.46c2fed5.css.map": "/artichoke-dragon/static/css/main.46c2fed5.css.map",
+    "main.83767d24.js.map": "/artichoke-dragon/static/js/main.83767d24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46c2fed5.css",
+    "static/js/main.83767d24.js"
+  ]
+}
